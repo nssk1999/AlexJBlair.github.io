@@ -2,40 +2,24 @@
   /* Navbar container */
   .navbar {
     overflow: hidden;
-    background-color: #333;
+    height: 50px;
+    width: 292px;
+    background-color: rgb(48, 48, 48);
     font-family: Arial;
   }
   
   /* Links inside the navbar */
   .navbar a {
-    float: left;
-    font-size: 16px;
+    float: middle;
+    font-size: 20px;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 30px 35px;
     text-decoration: none;
   }
   
   /* Add a red background color to navbar links on hover */
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: rgb(145, 145, 145);
   }
   
-  /* Mega Menu header, if needed */
-  .dropdown-content .header {
-    background: red;
-    padding: 16px;
-    color: rgb(255, 255, 255);
-  }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
